@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
+<style>
+body {
+  background-image: url('https://i.pinimg.com/originals/b1/8d/98/b18d98dde2ce468259b6f9409e461ebd.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+header{
+background-color:OrangeRed;
+padding:20px;
+text-align:center;
+color: white;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">X</a>
+  <a href="https://www.instagram.com/ia_di8/?hl=ar" onclick="w3_close()" class="w3-bar-item w3-button">Instagram</a>
+  <a href="https://www.tiktok.com/@ia_di8" onclick="w3_close()" class="w3-bar-item w3-button">TikTok</a>
+  <a href="https://snapchat.com/t/kJqbvNhK" onclick="w3_close()" class="w3-bar-item w3-button">Snapchat</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+<div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+<div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+</div>
+<header>
+<h3>Atallah</h3>
+</header>
+<a href="https://www.instagram.com/ia_di8/?hl=ar"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Instagram_logo.png/1200px-Instagram_logo.png" alt="Paris" style="width:20%">
+<br>
+<br>
+<a href="https://www.tiktok.com/@ia_di8"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tiktok-round-white-icon.png" alt="Paris" style="width:20%">
+<br>
+<br>
+<a href="https://snapchat.com/t/kJqbvNhK"><img src="https://pngimg.com/d/snapchat_PNG66.png" alt="Paris" style="width:20%">
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</div>
+</body>
+</html>
